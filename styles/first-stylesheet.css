@@ -64,6 +64,11 @@ img {
   margin-right: 1em;
 }
 
+ h4 img.html5 {
+  border: 0.1em solid black;
+  margin-bottom: 0.5em;
+}
+
 h4.abouttext {
   color: white;
   text-align: left;
@@ -130,14 +135,29 @@ article.projecttwo {
   background-color: #34495e;
   padding-bottom: 2em;
   font-size: 1.5em;
+  height: 3em;
 }
 
 article.projectthree {
   background-color: #34495e;
-  padding-bottom: 2em;
   font-size: 1.5em;
+  margin-top: 1em;
+  padding-bottom: 0.75em;
 }
 
+img.runningman {
+  padding-left: 0.5em;
+}
+
+div.MTinfo {
+  padding-left: 1em;
+}
+
+img.husky {
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+
+}
 .active {
   background-color: #c0392b;
   color: white;
