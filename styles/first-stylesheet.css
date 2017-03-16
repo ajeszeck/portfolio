@@ -64,19 +64,27 @@ img {
   margin-right: 1em;
 }
 
-p.abouttext {
+h4.abouttext {
   color: white;
   text-align: left;
   height: 20em;
   background-color: #34495e;
   padding-left: 1em;
   padding-top: 1em;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: champagne;
 }
 
-p.newstext {
-  font-size: 2em;
+h4.newstext {
+  font-size: 1em;
+  font-weight: normal;
   background-color: #34495e;
-  height: 20em;
+  height: 15em;
+  font-family: champagne;
+  color: white;
+  padding-left: 1em;
+  padding-top: 1em;
 }
 
 nav {
@@ -143,7 +151,7 @@ section.leftcolumn {
   background-color: #34495e;
   width: 65%;
   display: inline-block;
-  height: 41em;
+  height: 25em;
   margin-top: 0.75em;
   padding-left: 1em;
 }
@@ -152,7 +160,7 @@ section.rightcolumn {
   background-color: #34495e;
   width: 30%;
   float: right;
-  height: 41em;
+  height: 25em;
   margin-top: 0.75em;
   padding-left: 1em;
 }
