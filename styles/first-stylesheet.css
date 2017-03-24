@@ -3,6 +3,7 @@ html {
   font-family: champagne;
   font-size: 24px;
   color: black;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -28,15 +29,23 @@ header {
   width: 100%;
   height: 14em;
   color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-/* used div to style home page header */
+/* .name to style home page header */
 
-div {
-  margin: auto;
-  float: left;
-  margin-left: 1em;
-  margin-top: 0.55em;
+.name {
+  margin-top: 1rem;
+}
+
+img {
+  margin-top: 1em;
+  margin-right: 1em;
+  min-width: 25vw;
 }
 
 h1 {
@@ -45,23 +54,13 @@ h1 {
 }
 
 h1.header {
-  font-size: 12em;
-}
-
-h1.projectsheader {
- font-size: 11em;
+  font-size: 6rem;
+  margin-top: 0;
 }
 
 h4 {
   font-family: champagnebold;
   margin-top: 1em;
-}
-
-img {
-  float:left;
-  display: block;
-  margin-top: 1em;
-  margin-right: 1em;
 }
 
  h4 img.html5 {
