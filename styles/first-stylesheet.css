@@ -1,6 +1,6 @@
 html {
   background-color: #2c3e50;
-  font-family: champagne;
+  font-family: 'Raleway', sans-serif;
   font-size: 24px;
   color: black;
   box-sizing: border-box;
@@ -49,7 +49,7 @@ img {
 }
 
 h1 {
-  font-family: champagnebold;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -79,36 +79,33 @@ h1.header {
 }
 
 h4 {
-  font-family: champagnebold;
   margin-top: 1em;
 }
 
- h4 img.html5 {
+h4 img.html5 {
   border: 0.1em solid black;
   margin-bottom: 0.5em;
 }
 
 h4.abouttext {
-  color: white;
+  color: black;
   text-align: left;
   height: 20em;
   background-color: #34495e;
-  padding-left: 1em;
   padding-top: 1em;
   font-size: 1em;
-  font-weight: normal;
-  font-family: champagne;
+
 }
 
 h4.newstext {
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: normal;
   background-color: #34495e;
-  height: 15em;
-  font-family: champagne;
-  color: white;
-  padding-left: 1em;
-  padding-top: 1em;
+  height: 20rem;
+  color: black;
+  padding-left: 1rem;
+  padding-top: 1rem;
+
 }
 
 nav {
@@ -146,22 +143,32 @@ li a:hover {
   background-color: #c0392b;
 }
 
+.main {
+  diplay: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 section.leftcolumn {
   background-color: #34495e;
-  width: 65%;
-  display: inline-block;
-  height: 25em;
-  margin-top: 0.75em;
-  padding-left: 1em;
+  width: 48%;
+  height: 25rem;
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 section.rightcolumn {
   background-color: #34495e;
-  width: 30%;
-  float: right;
-  height: 25em;
-  margin-top: 0.75em;
-  padding-left: 1em;
+  width: 48%;
+  height: 25rem;
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 footer {
@@ -182,6 +189,10 @@ footer ul li a {
   display: inline-block;
 }
 
+footer ul li:nth-child(2n) {
+  font-style: italic;
+}
+
 /* css specific to project page */
 
 
@@ -190,7 +201,7 @@ footer ul li a {
   color: black;
 }
 
-.projects {
+.projectpage {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -199,37 +210,19 @@ footer ul li a {
   width: 100%;
 }
 
-
 .project {
   display: flex;
   flex-direction: row;
   background-color: #34495e;
-  font-size: 1.5em;
+  font-size: 1rem;
   align-items: flex-start;
   border: 0.5rem solid #2c3e50;
+  width: 100%;
 }
 
-.project h4 p {
-  font-family: champagne;
-  align-self: flex-end;
-  padding: 1rem;
-}
-
-img.runningman {
-  padding-left: 0.5rem;
-  padding-bottom: 0.5rem;
-
-}
-
-img.husky {
-  align-self: flex-start;
-
-
-}
-
-
-img.kitten {
-  align-self: flex-start;
-
-
+.description {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
