@@ -34,7 +34,6 @@ header {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-start;
-
 }
 
 /* .name to style home page header */
@@ -225,5 +224,38 @@ footer ul li a {
 }
 
 .icon {
+  margin-right: 1rem;
+}
+
+/* css specific to contact page */
+input {
+  font-family: 'Raleway';
+}
+
+.main h2 {
+  text-align: center;
+  color: white;
+}
+
+form {
+  width: 90%;
+  background-color: #34495e;
+  color: white;
+  padding: 1.5rem;
+}
+
+fieldset {
+  margin-top: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+form h4 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.textinput {
+  margin-top: 0.5rem;
   margin-right: 1rem;
 }

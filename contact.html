@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="styles/first-stylesheet.css">
   <link rel="stylesheet" type="text/css"
     href="https://fonts.googleapis.com/css?family=Raleway">
+  <script type="text/javascript">
+
+  </script>
 </head>
 <body>
   <header>
@@ -26,6 +29,72 @@
     </ul>
   </nav>
 
+  <section class="main">
+    <h2>Want to get in touch?</h2>
+    <form>
+      <label>Name:
+        <input class="textinput" type="text" name="last-name" size="30%" required>
+      </label>
+      <br>
+      <label>Email:
+        <input class="textinput" type="email" name="email" size="30%" required>
+      </label>
+      <br>
+      <label>Phone Number:
+        <input class="textinput" type="text" name="phone-number" size="30%" placeholder="optional">
+      </label>
+      <fieldset>
+        <legend>What can I help you with?</legend>
+        <label>
+          <input class="radio" type="radio" name="service" value="New Website Design">
+          New Website Design
+        </label>
+        <br>
+        <label>
+          <input class="radio" type="radio" name="service" value="New Website Design">
+          Existing Website Redesign **(See below)
+        </label>
+        <br>
+        <label>
+          <input class="radio" type="radio" name="service" value="New Website Design">
+          Advice for a budding designer (me)
+        </label>
+        <br>
+        <label>
+          <input class="radio" type="radio" name="service" value="New Website Design">
+          Other Question or Comment
+        </label>
+      </fieldset>
+      <input class="additionalcomments" type="text" name="additional-comments" placeholder="Please write any comments/feedback/advice here" style="width:30rem">
+
+      <h4>** If you are looking for a redesign I have a few more questions</h4>
+      <label>What is the URL of the existing site?
+      <input  class="textinput" type="url" name="url">
+      </label>
+      <br>
+      <label>How many visitors does this site get each day?
+        <input  class="textinput" type="text" name="visitor-numbers">
+      </label>
+      <br>
+      <label>In what year was the website designed?
+        <input  class="textinput" type="text" name="year">
+      </label>
+      <br>
+      <fieldset>
+        <legend>Who created your original website?</legend>
+        <select>
+          <option style="font-family: 'Raleway'"placeholder="choose one">choose an option</option>
+          <option value="yourself">Yourself</option>
+          <option value="website-builder">Yourself Using a Web Design Website</option>
+          <option value="freelancer">Freelancer</option>
+          <option value="design-firm">Design Firm</option>
+        </select>
+      </fieldset>
+      <br>
+      <input class="submit" type="submit" name="submit-button" value="Send it off!">
+
+    </form>
+  </section>
   <footer>
     <ul class="footer">
       <li><a href="index.html">Home</a></li>
