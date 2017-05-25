@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="/styles/normalize.css">
-    <link rel="stylesheet" href="styles/first-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./styles/normalize.css">
     <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="./styles/first-stylesheet.css">
   </head>
   <body>
     <header>
-      <img class="seattle" src="photos/seattleflatui.jpg" width="400" alt="Cool flat image of the Seattle skyline.">
+      <img class="seattle" src="photos/seattleflatui.jpg" alt="Cool flat image of the Seattle skyline.">
       <div class="name">
         <h1>ANNA JESZECK</h1>
         <h4>SEATTLE-BASED GRAPHIC <br> AND WEB DESIGN</h4>
@@ -25,17 +25,19 @@
         <li><a href="contact.html">CONTACT</a></li>
       </ul>
     </nav>
-    <div class="main">
-      <section class="blog">
-        <h2 class="blog-heading">Responsive Web Design</h2>
-        <h3 class="blog-heading">April 23, 2017 | Assignment 2</h3>
-        <p>Technology today is changing rapidly; it seems like every day we have a new way to view things online. Each time it seems like the screen grows, shrinks, or changes shape entirely. This poses a problem for any web designer or developer who is hoping for their users to view their content in a specific manner.
-        <p>Unfortunately, because of the variety of devices these days, it is close to impossible for every user to have the same experience with a website or application, but we can get close. This is where the concept of Responsive Web Design (RWD) comes into play. The idea of RWD is that by using design and coding techniques that are flexible to changes in the viewport, we can optimize the viewers experience of our designs across most platforms and browsers.</p>
-        <p>Of course it is difficult to guarantee any user will have the exact same experience as others, but as web designers and developers utilizing the principles of responsive web design, we can ensure that we are doing everything we can to try and standardize the experience to the best of our ability. The wonderful thing about designing for user experience across platforms is that the techniques change practically every day, and this ensures that we have constantly have new methods for optimization.</p>
-      </section>
-      <section class="blog">
-        <h2>DUMMY HEADING</h2>
-        <p>Dummy content</p>
+    <div class="main container-fluid">
+      <section class="row">
+        <div class="blog col-md-8">
+          <h2 class="blog-heading">Responsive Web Design</h2>
+          <h3 class="blog-heading">April 23, 2017 | Assignment 2</h3>
+          <p>Technology today is changing rapidly; it seems like every day we have a new way to view things online. Each time it seems like the screen grows, shrinks, or changes shape entirely. This poses a problem for any web designer or developer who is hoping for their users to view their content in a specific manner.
+          <p>Unfortunately, because of the variety of devices these days, it is close to impossible for every user to have the same experience with a website or application, but we can get close. This is where the concept of Responsive Web Design (RWD) comes into play. The idea of RWD is that by using design and coding techniques that are flexible to changes in the viewport, we can optimize the viewers experience of our designs across most platforms and browsers.</p>
+          <p>Of course it is difficult to guarantee any user will have the exact same experience as others, but as web designers and developers utilizing the principles of responsive web design, we can ensure that we are doing everything we can to try and standardize the experience to the best of our ability. The wonderful thing about designing for user experience across platforms is that the techniques change practically every day, and this ensures that we have constantly have new methods for optimization.</p>
+        </div>
+        <div class="blog col-md-4">
+          <h2>DUMMY HEADING</h2>
+          <p>Dummy content</p>
+        </div>
       </section>
     </div>
     <footer>
@@ -47,5 +49,9 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
